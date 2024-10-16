@@ -44,4 +44,4 @@ chunk_size = 50
 chunked_html = chunk_html(html_content, chunk_size)
 
 for chunk in chunked_html:
-    print(chunk)
+    print('TO_CLOB(\''+ chunk + '\') || ')
